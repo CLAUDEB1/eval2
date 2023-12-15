@@ -11,6 +11,7 @@ int main() {
   cout << "2 - Nombre de place disponible\n" << endl;
   cout << "3 - Sortie du parking\n" << endl;
   cout << "4 - Quitter\n" << endl;
+  cout << "**************************************" << endl;
 
   char choix;
   do {
