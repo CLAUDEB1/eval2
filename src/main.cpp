@@ -11,8 +11,11 @@ int main() {
   cout << "2 - Nombre de place disponible\n" << endl;
   cout << "3 - Sortie du parking\n" << endl;
   cout << "4 - Quitter\n" << endl;
-
-  char choix;
+  
+ 
+    char choix;
+  do
+  {
   cout << "Saisir un nombre" << endl;
   cin >> choix;
   switch (choix) {
@@ -28,5 +31,7 @@ int main() {
   case '4':
     cout << "Quitter" << endl;
     break;
-  }
+    }
+  } while (choix != '4');
+    return 0;
 }
