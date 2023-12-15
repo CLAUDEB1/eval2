@@ -11,27 +11,25 @@ int main() {
   cout << "2 - Nombre de place disponible\n" << endl;
   cout << "3 - Sortie du parking\n" << endl;
   cout << "4 - Quitter\n" << endl;
-  
- 
-    char choix;
-  do
-  {
-  cout << "Saisir un nombre" << endl;
-  cin >> choix;
-  switch (choix) {
-  case '1':
-    cout << "Entrée dans le parking" << endl;
-    break;
-  case '2':
-    cout << "Nombre de place disponible" << endl;
-    break;
-  case '3':
-    cout << "Sortie du parking" << endl;
-    break;
-  case '4':
-    cout << "Quitter" << endl;
-    break;
+
+  char choix;
+  do {
+    cout << "Saisir un nombre\n" << endl;
+    cin >> choix;
+    switch (choix) {
+    case '1':
+      cout << "Entrée dans le parking\n" << endl;
+      break;
+    case '2':
+      cout << "Nombre de place disponible\n" << endl;
+      break;
+    case '3':
+      cout << "Sortie du parking\n" << endl;
+      break;
+    case '4':
+      cout << "Quitter\n" << endl;
+      break;
     }
   } while (choix != '4');
-    return 0;
+  return 0;
 }
